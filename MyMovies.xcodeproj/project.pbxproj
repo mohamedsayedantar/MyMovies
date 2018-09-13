@@ -68,7 +68,7 @@
 		DB4485ED2144A4C90034ADE2 = {
 			isa = PBXGroup;
 			children = (
-				DB4485F82144A4C90034ADE2 /* MyMovies */,
+				DB4485F82144A4C90034ADE2 /* moviesWithMVC */,
 				DB4485F72144A4C90034ADE2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB4485F82144A4C90034ADE2 /* MyMovies */ = {
+		DB4485F82144A4C90034ADE2 /* moviesWithMVC */ = {
 			isa = PBXGroup;
 			children = (
 				DB8379932144B355009ED5F6 /* Model */,
@@ -94,7 +94,7 @@
 				DB4486022144A4CA0034ADE2 /* LaunchScreen.storyboard */,
 				DB4486052144A4CA0034ADE2 /* Info.plist */,
 			);
-			path = MyMovies;
+			path = moviesWithMVC;
 			sourceTree = "<group>";
 		};
 		DB8379932144B355009ED5F6 /* Model */ = {

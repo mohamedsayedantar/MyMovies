@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="loginViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="loginViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,9 +108,9 @@
                         <segue destination="OR9-E1-9qc" kind="relationship" relationship="viewControllers" id="8Yf-HV-T5B"/>
                         <segue destination="aPt-Ai-CZC" kind="relationship" relationship="viewControllers" id="mSs-Az-9Zq"/>
                         <segue destination="z3K-p4-AaN" kind="relationship" relationship="viewControllers" id="sXQ-4f-tYJ"/>
+                        <segue destination="qCo-w2-R9N" kind="relationship" relationship="viewControllers" id="YGS-n3-o1T"/>
                         <segue destination="L14-uc-G2J" kind="relationship" relationship="viewControllers" id="m0l-uJ-iGL"/>
                         <segue destination="OXs-eN-BjT" kind="relationship" relationship="viewControllers" id="guj-jd-QL9"/>
-                        <segue destination="qCo-w2-R9N" kind="relationship" relationship="viewControllers" id="YGS-n3-o1T"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kXe-Y7-Vm9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -120,7 +120,7 @@
         <!--List-->
         <scene sceneID="JQl-Vf-z3p">
             <objects>
-                <tableViewController id="L14-uc-G2J" customClass="WatchlistViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="L14-uc-G2J" customClass="WatchlistViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="wFy-TL-up0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +149,7 @@
         <!--Favorite-->
         <scene sceneID="4mE-FP-15Z">
             <objects>
-                <tableViewController id="OXs-eN-BjT" customClass="FavoritesViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="OXs-eN-BjT" customClass="FavoritesViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lkX-Cv-8LR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -178,7 +178,7 @@
         <!--Action-->
         <scene sceneID="P8a-IW-HDy">
             <objects>
-                <tableViewController id="OR9-E1-9qc" customClass="ActionViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="OR9-E1-9qc" customClass="ActionViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="i4h-5r-DPh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -207,7 +207,7 @@
         <!--Comedy-->
         <scene sceneID="MFf-Xr-ccr">
             <objects>
-                <tableViewController id="aPt-Ai-CZC" customClass="ComedyViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="aPt-Ai-CZC" customClass="ComedyViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="aqM-4I-Wit">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -236,28 +236,28 @@
         <!--search-->
         <scene sceneID="BJJ-Kh-zhV">
             <objects>
-                <viewController id="qCo-w2-R9N" customClass="MoviePickerViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qCo-w2-R9N" customClass="MoviePickerViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NKk-1E-Rfp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qwM-bs-0Vf">
-                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="qCo-w2-R9N" id="Yjh-IJ-MHC"/>
-                                </connections>
-                            </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="An9-5Y-hHN">
                                 <rect key="frame" x="0.0" y="120" width="375" height="498"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="498" id="cb8-5w-uuq"/>
                                 </constraints>
+                                <searchBar key="tableHeaderView" contentMode="redraw" id="qwM-bs-0Vf">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="qCo-w2-R9N" id="Yjh-IJ-MHC"/>
+                                    </connections>
+                                </searchBar>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieSearchCell" id="LpM-qB-y11">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="84" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LpM-qB-y11" id="dc9-i2-IAQ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -279,7 +279,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2ox-1z-kLd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="search" image="Film" id="DO3-ph-ica"/>
+                    <tabBarItem key="tabBarItem" title="search" image="List" id="DO3-ph-ica"/>
                     <connections>
                         <outlet property="movieSearchBar" destination="qwM-bs-0Vf" id="fRh-nq-dDB"/>
                         <outlet property="movieTableView" destination="An9-5Y-hHN" id="jgN-wc-6T6"/>
@@ -292,7 +292,7 @@
         <!--Horror-->
         <scene sceneID="e3P-jx-qGi">
             <objects>
-                <tableViewController id="z3K-p4-AaN" customClass="HorrorViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="z3K-p4-AaN" customClass="HorrorViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rCg-Or-gRJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -321,7 +321,7 @@
         <!--Auth View Controller-->
         <scene sceneID="YRs-5O-Ryn">
             <objects>
-                <viewController storyboardIdentifier="TMDBAuthViewController" id="uSk-hV-ISU" customClass="TMDBAuthViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TMDBAuthViewController" id="uSk-hV-ISU" customClass="TMDBAuthViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZiD-wB-Jff">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -351,7 +351,7 @@
         <!--Movie Detail View Controller-->
         <scene sceneID="2QF-rz-hB9">
             <objects>
-                <viewController storyboardIdentifier="MovieDetailViewController" id="hF1-s8-tvF" customClass="MovieDetailViewController" customModule="moviesWithMVC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MovieDetailViewController" id="hF1-s8-tvF" customClass="MovieDetailViewController" customModule="MyMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oCK-bb-Yil">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -400,7 +400,6 @@
     </scenes>
     <resources>
         <image name="Favorite" width="32" height="32"/>
-        <image name="Film" width="64" height="64"/>
         <image name="Genre" width="30" height="30"/>
         <image name="List" width="32" height="32"/>
         <image name="icon" width="170" height="170"/>
